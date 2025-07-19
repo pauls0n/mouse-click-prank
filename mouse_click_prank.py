@@ -16,7 +16,7 @@ class MouseClickPrank(QWidget):
 		self.player = QMediaPlayer()
 
 		self.title = QLabel("Mouse Click Prank", self)
-		self.description = QLabel("This widget makes the computer play a sound effect of your choosing every time you click your mouse", self)
+		self.description = QLabel("This widget makes the computer play a sound effect of your choosing every time you click your mouse!", self)
 		self.help = QLabel("Choose the sound effect:", self)
 
 		self.vbox.addWidget(self.title)
