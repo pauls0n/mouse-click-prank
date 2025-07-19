@@ -5,12 +5,13 @@ from PyQt5.QtCore import Qt, QUrl
 from PyQt5.QtMultimedia import QMediaPlayer, QMediaContent
 from sound_effects import sound_effects
 from pynput import mouse
+from resource_path import resource_path
 
 class MouseClickPrank(QWidget):
 	def __init__(self):
 		super().__init__()
 		self.setWindowTitle("Mouse Click Prank")
-		self.setWindowIcon(QIcon("logo.ico"))
+		self.setWindowIcon(QIcon(resource_path("logo.ico")))
 		self.setGeometry(800, 250, 500, 300)
 		self.vbox = QVBoxLayout()
 		self.player = QMediaPlayer()
@@ -40,7 +41,7 @@ class MouseClickPrank(QWidget):
 		if self.radio_group.checkedId() != -1 and pressed:
 			file_name = sound_effects[self.radio_group.checkedButton().text()]
 			path = f"sounds/{file_name}"
-			url = QUrl.fromLocalFile(path)
+			url = QUrl.fromLocalFile(resource_path(path))
 			content = QMediaContent(url)
 			self.player.stop()
 			self.player.setMedia(content)
