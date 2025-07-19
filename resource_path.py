@@ -1,6 +1,8 @@
 import os
 import sys
 
+# Credit: Nautilius/Stack Overflow
+
 def resource_path(relative_path):
 	try:
 		base_path = sys._MEIPASS
