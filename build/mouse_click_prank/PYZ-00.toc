@@ -279,6 +279,15 @@
   ('lzma',
    'C:\\Users\\pauls\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\lzma.py',
    'PYMODULE'),
+  ('modules', '-', 'PYMODULE'),
+  ('modules.resource_path',
+   'C:\\Users\\pauls\\Desktop\\py_projects\\Mouse Click '
+   'Prank\\scripts\\modules\\resource_path.py',
+   'PYMODULE'),
+  ('modules.sound_effects',
+   'C:\\Users\\pauls\\Desktop\\py_projects\\Mouse Click '
+   'Prank\\scripts\\modules\\sound_effects.py',
+   'PYMODULE'),
   ('numbers',
    'C:\\Users\\pauls\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\numbers.py',
    'PYMODULE'),
@@ -398,10 +407,6 @@
    'PYMODULE'),
   ('socket',
    'C:\\Users\\pauls\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\socket.py',
-   'PYMODULE'),
-  ('sound_effects',
-   'C:\\Users\\pauls\\Desktop\\py_projects\\Mouse Click '
-   'Prank\\sound_effects.py',
    'PYMODULE'),
   ('statistics',
    'C:\\Users\\pauls\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\statistics.py',
