@@ -1,8 +1,7 @@
 
 # Mouse Click Prank Software 😝
 
-This is a really stupid widget that makes the computer play a sound effect of your choosing every time you click the mouse. <br>
-Perfect for pranking your friends!
+This is a really stupid widget that makes the computer play a sound effect of your choosing every time you click the mouse. Perfect for pranking your friends!
 
 [Learn how to contribute to this project](docs/CONTRIBUTE)
 
